@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "jest": "^24.8.0",
+    "moment": "^2.24.0"
+  },
+  "scripts": {
+    "test": "../__tests__/node_modules/.bin/jest"
+  }
+}

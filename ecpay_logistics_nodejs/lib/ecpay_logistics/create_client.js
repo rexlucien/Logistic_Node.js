@@ -12,8 +12,8 @@ const http = require('http');
 const https = require('https');
 
 class ECpayCreateClient{
-    constructor(){
-        this.helper = new helper();
+    constructor(params) {
+        this.helper = new helper(params);
     }
 
     create(parameters){
